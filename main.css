@@ -1,0 +1,365 @@
+@import url("https://use.typekit.net/qku7omf.css");
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Raleway:ital,wght@0,400;0,500;0,600;0,700;0,800;1,600;1,700&display=swap');
+
+* {
+    font-family: 'Lato', sans-serif;
+    margin: 0vh;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    background-color: #2E2E2E;
+    padding: 20px;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    margin: 5px 30px 0px 10px;
+    font-size: 20px;
+}
+
+.nav-link:hover{
+    color: rgba(255, 255, 255, 0.574);
+}
+
+
+.content-1-home {
+    height: 800px;
+    background-image: url( 'SVG/layered-waves-haikei.svg' );
+}
+.content-2-home{
+    height:700px;
+    background-image: url('svg/layered-waves-haikei-top.svg');
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-3-home{
+    height: 300px;
+    background-color: #2E2E2E;
+}
+
+.title {
+    color: white;
+    font-size: 40px;
+    font-weight: bolder;
+    padding: 25px;
+    margin-top: 20px;
+}
+
+.name {
+    font-size: 35px;
+    margin-top: 80px;
+}
+
+
+.intro {
+    background-color: #3e3e3e;
+    color: white;
+    font-size: 20px;
+    width: 70%;
+    height: fit-content;
+    padding: 40px;
+    border: 0px solid white;
+    border-radius: 15px;
+}
+
+.setting-info {
+    background-color: #3e3e3e;
+    color: white;
+    font-size: 20px;
+    width: 70%;
+    height: fit-content;
+    padding: 40px;
+    border: 0px solid white;
+    border-radius: 15px;
+}
+
+.plot-info {
+    background-color: #3e3e3e;
+    color: white;
+    font-size: 20px;
+    width: 70%;
+    height: fit-content;
+    padding: 40px;
+    border: 0px solid white;
+    border-radius: 15px;
+}
+
+.impact-info {
+    background-color: #3e3e3e;
+    color: white;
+    font-size: 20px;
+    width: 70%;
+    height: fit-content;
+    padding: 40px;
+    border: 0px solid white;
+    border-radius: 15px;
+}
+
+.intro-title{
+    margin-top: 230px;
+    margin-bottom: 30px;
+    text-decoration: underline;
+    font-size: 45px;
+    color: white;
+}
+
+.setting-title{
+    text-decoration: underline;
+    margin-bottom: 30px;
+    font-size: 45px;
+    color: white;
+}
+.characters-title{
+    text-decoration: underline;
+    margin-bottom: 30px;
+    font-size: 45px;
+    color: white;
+}
+
+.characters-title-sub{
+    margin-bottom: 30px;
+    font-size: 25px;
+    color: white;
+}
+.plot-title{
+    text-decoration: underline;
+    margin-bottom: 30px;
+    font-size: 45px;
+    color: white;
+}
+
+.impact-title{
+    text-decoration: underline;
+    margin-bottom: 30px;
+    font-size: 45px;
+    color: white;
+}
+
+.content{
+    background-color: #2E2E2E;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+
+.setting{
+    width: 100%;
+    background-color: #2E2E2E;
+}
+
+.characters{
+    width: 100%;
+}
+
+.setting-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.characters-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #3e3e3e77;
+    border: 0px solid white;
+    border-radius: 15px;
+    padding: 30px;
+}
+
+.plot-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.impact-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.button-plot{
+    background-color: #6cb0ff;
+    border: 0px solid white;
+    border-radius: 15px;
+    font-size: 30px;
+    color: white;
+    padding: 10px;
+    margin: 50px 30px 0px 30px;
+}
+
+
+.button-plot:hover{
+    background-color: #6cb1ffc3;
+    cursor: pointer;
+}
+
+.content-title {
+    font-size: 100px;
+    color: white;
+}
+
+.singapore-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 60px;
+}
+
+.singapore-info-wrapper{
+    display: flex;
+    flex-direction: column;
+    background-color: #3e3e3e;
+    color: white;
+    font-size: 20px;
+    width: 40%;
+    height: fit-content;
+    padding: 30px;
+    margin-top: 20px;
+    border: 0px solid white;
+    border-radius: 15px;
+    display: none;
+}
+
+.interact-info {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.singapore-info-title-wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.after-plot-spacer{
+    height: 200px;
+    width: 100%;
+    background-image: url('svg/wave-haikei.svg');
+}
+
+.after-characters-spacer{
+    height: 200px;
+    width: 100%;
+    background-image: url('svg/wave-haikei-3.svg');
+}
+
+.footer {
+    height: 300px;
+    width: 100%;
+    background-image: url('svg/footer.svg');
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.characters{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.card {
+    width:18vmax;
+    height:18vmax;
+    background-color: #3e3e3e;
+    margin: 30px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 3px 3px 10px #2E2E2E;
+}
+
+.row-cards {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+}
+
+
+.image-card{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+    z-index: 0;
+    -filter: blur(2px);
+}
+
+.card-title{
+    color: white;
+    z-index: 1;
+}
+
+.card-title-wrapper{
+    height: fit-content;
+    width: fit-content;
+    padding: 10px;
+    z-index: 1;
+    background-color: #3e3e3ece;
+    border: 0px solid white;
+    border-radius: 15px;
+    position: absolute;
+    display: none;
+}
+
+.card-info{
+    color: white;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: none;
+}
+
+.card-info h2 {
+    font-size: 30px;
+    margin: 10px 10px 0px;
+}
+
+.card-info p {
+    word-wrap: break-word;
+    word-break: break-word;
+    margin: 0px 10px 10px;
+    font-size: 20px;
+}
+
+
+
+
+
